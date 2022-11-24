@@ -1,0 +1,65 @@
+﻿,,,,Date,03-Nov-22,,,,,,,,
+,,,,Team ID,PNT2022TMID48269,,,,,,,,
+,,,,Project Name,Project - Visualizing and Predicting Heart Disease using an Interative Dashboard,,,,,,,,
+,,,,Maximum Marks,4 marks,,,,,,,,
+Test case ID,Feature Type,Component, Test Scenario,Pre-Requisite,Steps To Execute,Test Data,Expected Result,Actual Result,Status,Commnets,TC for Automation(Y/N),BUG ID,Executed By
+LoginPage_TC_OO1,Functional,Home Page  ,Verify  user is able to see the Login/Signup popup when user clicked on My account button ,,"1.Enter URL and click go
+2.Click on My Account dropdown button
+3.Verify login/Singup popup displayed or not",file:///C:/Users/HP/Desktop/IBM%20Project/Project%20Development%20Phase/Project%20Development%20-%20Delivery%20of%20Sprint2/login.html,Login/Signup popup should display,Working as expected,Pass,       ,,,
+LoginPage_TC_OO2,UI,Home Page,Verify the UI elements in Login/Signup popup,,"1.Enter URL and click go
+2.Click on My Account dropdown button
+3.Verify login/Singup popup with below UI elements:
+a.email text box
+b.password text box
+c.Login button
+d.New customer? Create account link
+e.Last password? Recovery password link",file:///C:/Users/HP/Desktop/IBM%20Project/Project%20Development%20Phase/Project%20Development%20-%20Delivery%20of%20Sprint2/Heart1.html,"Application should show below UI elements:
+a.email text box
+b.password text box
+c.Login button with orange colour
+d.New customer? Create account link
+e.Last password? Recovery password link",Working as expected,Pass,,,,
+LoginPage_TC_OO3,Functional,Home page,Verify user is able to log into application with Valid credentials,,"1.Enter URL(https://shopenzer.com/) and click go
+2.Click on My Account dropdown button
+3.Enter Valid username/email in Email text box
+4.Enter valid password in password text box
+5.Click on login button","Username: heart disease
+password: sgltv123",User should navigate to user account homepage,Working as expected,Pass,,,,
+LoginPage_TC_OO4,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL and click go
+2.Click on My Account dropdown button
+3.Enter InValid username/email in Email text box
+4.Enter valid password in password text box
+5.Click on login button","Username: heart disease@gmail.com
+password: sgltv123",Application should show 'Incorrect email or password ' validation message.,Not Working as expected,Fail,Steps are not clear to follow,,BUG-1234,
+LoginPage_TC_OO4,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL(https://shopenzer.com/) and click go
+2.Click on My Account dropdown button
+3.Enter Valid username/email in Email text box
+4.Enter Invalid password in password text box
+5.Click on login button","Username: heart disease@gmail
+password: sgltv567",Application should show 'Incorrect email or password ' validation message.,Not Working as expected,Fail,Steps are not clear to follow,,BUG-004,
+LoginPage_TC_OO5,Functional,Login page ,Verify user is able to log into application with InValid credentials,,"1.Enter URL(https://shopenzer.com/) and click go
+2.Click on My Account dropdown button
+3.Enter InValid username/email in Email text box
+4.Enter Invalid password in password text box
+5.Click on login button","Username: heart
+password: sgltv123",Application should show 'Incorrect email or password ' validation message.,Not Working as expected,Fail,Steps are not clear to follow,,BUG-404,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
